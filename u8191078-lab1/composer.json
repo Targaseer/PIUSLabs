@@ -1,0 +1,14 @@
+{
+    "type": "project",
+    "description" : "Lab1",
+    "require": {
+        "symfony/validator": "^6.0"
+    },
+    "autoload": {
+        "files": [
+            "src/employee.php",
+            "src/employee_validations.php",
+            "src/department.php"
+        ]
+    }
+}
